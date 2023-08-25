@@ -6,7 +6,7 @@ Chattobotto is your go-to medical assistance chatbot, designed to provide accura
 
 - **Supervised Fine-Tuning**: We've harnessed the power of supervised fine-tuning to train Chattobotto. This process has honed its responses to ensure accurate and reliable medical information.
 
-- **LLaMa 2 Architecture**: The underlying architecture of Chattobotto is based on Lambda 2, providing a robust and efficient foundation for its performance.
+- **LLaMa 2 Architecture**: The underlying architecture of Chattobotto is based on Llama 2, providing a robust and efficient foundation for its performance.
 
 - **BPE Encoder**: Chattobotto utilizes an Byte-Pair Encoder as a tokenizing algorithm, streamlining the input processing and generating meaningful responses.
 
@@ -38,8 +38,8 @@ To start interacting with Chattobotto, follow these simple steps:
 4. **Launch the Application**: Launch the Flask application by running the appropriate command. This initiates the local server and allows you to access Chattobotto via your web browser.
 
 5. **Engage with Chattobotto**: Once the application is up, start a conversation with Chattobotto. Ask medical questions or engage in small talk – it's here to assist and chat!
-   or
-load the model from hugging face hub to fine tune it more on your specific medical assistance and research purpose
+                                      
+6. load the model from hugging face hub to fine tune it more on your specific medical assistance and research purpose
 
 ## Dataset and Fine-Tuning ⚙️📊
 
