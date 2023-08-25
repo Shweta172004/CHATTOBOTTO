@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+     font-family: '', cursive;
+     font-size: 20px;
+     background:url('{{ url_for('static', filename='images/bg.jpg') }}')
+  }
+
+  .chat-container {
+    width: 75%;
+    background-color: transparent;
+    border:none;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto;
+    border-radius: 20px;
+    margin: 5px;
+    z-index:0;
+  }
+
+  .input-output {
+    /* margin-bottom: 20px; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 95%;
+  }
+
+  .logo-container {
+    width: 25%;
+    background-color:#F0EAD6 ;
+    box-shadow: 5px 5px 2px 2px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 5px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    width: 30%;
+    animation: zigzag 4s infinite alternate;
+  }
+
+  .logoname{
+    position: absolute;
+    top: 60px;
+    border-radius: 18px;
+    width: 70%;
+  }
+
+  .tagline{
+    position: absolute;
+    bottom: 60px;
+    font-size: 30px;
+    color:rgb(66, 110, 110);
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .input , .output{
+    border-radius: 15px;
+    /* border-color: #333; */
+    border: 5px groove #333;
+    width: 100%;
+    margin: auto;
+    /* padding: 20px; */
+  }
+
+  .output{
+    height: 81%;
+    background-color: #c0e7ec;
+    box-shadow: 5px 5px 2px 2px grey;
+    padding: 10px;
+  }
+
+  .input{
+    height:10%;
+    display: flex;
+    background-color: #f0f0f0;
+    border: none;
+  }
+
+  .input input{
+    width: 75%;
+    background-color: #333;
+    margin: auto;
+    height: 90%;
+    color: whitesmoke;
+    border: 5px groove #333;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px 2px grey;
+    padding: 2px;
+  }
+
+  .input button{
+    width: 20%;
+    background-color: #333;
+    margin: auto;
+    height: 100%;
+    color: whitesmoke;
+    border: 5px groove #333;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px 2px grey;
+  }
+
+  .input button:hover{
+    background-color: #686464;
+  }
+
+
+
+ @keyframes zigzag {
+    0%, 100% {
+      transform: translateX(0) translateY(0);
+    }
+    25% {
+      transform: translateX(100%) translateY(25%);
+    }
+    50% {
+      transform: translateX(0) translateY(50%);
+    }
+    75% {
+      transform: translateX(100%) translateY(75%);
+    }
+  }
+</style>
+<title>Chat Bot Interface</title>
+</head>
+<body>
+    <div class="logo-container">
+        <img class="logoname" src="{{ url_for('static', filename='images/Screenshot_2023-08-25_213256-removebg-preview (1).png') }}" alt="">
+        <img class="logo" src="{{ url_for('static', filename='images/logoChatMuse-modified.png') }}" alt="Logo">
+        <p class="tagline"><b></b><br> Your One Stop Medical Solution</p>
+    </div>
+    <div class="chat-container">
+      <div class="input-output">
+          <div class="output" id="outputWindow">
+              <p>output window</p>
+
+
+
+
+          </div>
+          <div class="input">
+              <input type="text" placeholder="Say Something" id="inputText">
+              <button id="submitButton">Submit</button>
+          </div>
+
+      </div>
+    </div>
+    <script>
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        let output = document.getElementById("outputWindow");
+        let input = document.getElementById("inputText");
+        let submitButton = document.getElementById("submitButton");
+
+    submitButton.addEventListener("click", function () {
+          let inputValue = input.value;
+          output.innerHTML = `<p>${inputValue}</p>`;
+          input.value = "";
+       });
+      });
+    </script>
+</body>
+</html>
