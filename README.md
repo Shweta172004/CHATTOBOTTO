@@ -6,23 +6,24 @@ Chattobotto is your go-to medical assistance chatbot, designed to provide accura
 
 - **Supervised Fine-Tuning**: We've harnessed the power of supervised fine-tuning to train Chattobotto. This process has honed its responses to ensure accurate and reliable medical information.
 
-- **Lambda 2 Architecture**: The underlying architecture of Chattobotto is based on Lambda 2, providing a robust and efficient foundation for its performance.
+- **LLaMa 2 Architecture**: The underlying architecture of Chattobotto is based on Lambda 2, providing a robust and efficient foundation for its performance.
 
-- **Autotokenizer**: Chattobotto utilizes an autotokenizer, streamlining the input processing and generating meaningful responses.
+- **BPE Encoder**: Chattobotto utilizes an Byte-Pair Encoder as a tokenizing algorithm, streamlining the input processing and generating meaningful responses.
 
-- **7 Million Parameters**: With a staggering 7 million parameters, Chattobotto has been fine-tuned to excel in comprehending and generating human-like text.
+- **7 Billion Parameters**: With a staggering 7 million parameters, Chattobotto has been fine-tuned to excel in comprehending and generating human-like text.
 
 - **Medical and Small Talk Datasets**: We've meticulously trained Chattobotto using diverse medical chat datasets and small talk datasets. This comprehensive training ensures it can handle a wide array of medical queries and engage in friendly casual conversations.
 
 ## Technologies Involved 🚀
-
-- **AWS (Amazon Web Services)**: Our deployment is powered by AWS, ensuring scalability, availability, and reliability in serving users.
 
 - **HTML/CSS**: Chattobotto boasts a sleek and intuitive user interface crafted using HTML and CSS.
 
 - **JavaScript**: The interactive elements and dynamic features of the chatbot interface are implemented using JavaScript.
 
 - **Flask**: Chattobotto employs Flask, a lightweight web application framework, to seamlessly manage the backend interactions between the user interface and the ChatGPT model.
+
+- **AWS (Amazon Web Services)**: Our deployment is powered by AWS, ensuring scalability, availability, and reliability in serving users.
+
 
 ## Getting Started 🏁
 
@@ -37,6 +38,8 @@ To start interacting with Chattobotto, follow these simple steps:
 4. **Launch the Application**: Launch the Flask application by running the appropriate command. This initiates the local server and allows you to access Chattobotto via your web browser.
 
 5. **Engage with Chattobotto**: Once the application is up, start a conversation with Chattobotto. Ask medical questions or engage in small talk – it's here to assist and chat!
+   or
+load the model from hugging face hub to fine tune it more on your specific medical assistance and research purpose
 
 ## Dataset and Fine-Tuning ⚙️📊
 
