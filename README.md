@@ -1,4 +1,4 @@
-# Chattobotto: Your Medical Assistance Chatbot 🩺🤖
+# Chattobotto: Your Medical Assistance Chatbot🩺🤖
 
 Chattobotto is your go-to medical assistance chatbot, designed to provide accurate and instant information about medical queries. Powered by the advanced ChatGPT model, it's equipped with 7 million parameters and has been fine-tuned using a supervised approach. With a primary focus on medical chat datasets and small talk datasets, Chattobotto is finely tuned to cater to your medical informational needs.
 
