@@ -8,6 +8,9 @@ Welcome to My Awesome Project! This project uses the amazing Hugging Face librar
 
 Check out the [Hugging Face code for the ChatBot](https://huggingface.co/unmolb/ChattoBotto-doc-v1) for more information.
 
+
+![Interface](https://github.com/Shweta172004/CHATTOBOTTO/assets/122981592/86e6ea50-fe3c-4b1c-9242-7d787627a287)
+
 ## Key Features and Technologies Used 🌟🛠️
 
 - **Supervised Fine-Tuning**: We've harnessed the power of supervised fine-tuning to train Chattobotto. This process has honed its responses to ensure accurate and reliable medical information.
@@ -29,6 +32,7 @@ Check out the [Hugging Face code for the ChatBot](https://huggingface.co/unmolb/
 - **Flask**: Chattobotto employs Flask, a lightweight web application framework, to seamlessly manage the backend interactions between the user interface and the ChatGPT model.
 
 - **AWS (Amazon Web Services)**: Our deployment is powered by AWS, ensuring scalability, availability, and reliability in serving users.
+
 
 
 ## Getting Started 🏁
