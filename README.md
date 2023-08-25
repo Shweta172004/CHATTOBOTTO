@@ -2,6 +2,12 @@
 
 Chattobotto is your go-to medical assistance chatbot, designed to provide accurate and instant information about medical queries. Powered by the advanced ChatGPT model, it's equipped with 7 million parameters and has been fine-tuned using a supervised approach. With a primary focus on medical chat datasets and small talk datasets, Chattobotto is finely tuned to cater to your medical informational needs.
 
+# My Awesome Project
+
+Welcome to My Awesome Project! This project uses the amazing Hugging Face library.
+
+Check out the [Hugging Face code for the ChatBot](https://huggingface.co/unmolb/ChattoBotto-doc-v1) for more information.
+
 ## Key Features and Technologies Used 🌟🛠️
 
 - **Supervised Fine-Tuning**: We've harnessed the power of supervised fine-tuning to train Chattobotto. This process has honed its responses to ensure accurate and reliable medical information.
