@@ -6,12 +6,13 @@ Chattobotto is your go-to medical assistance chatbot, designed to provide accura
 
 Welcome to My Awesome Project! This project uses the amazing Hugging Face library.
 
-Check out the [Hugging Face code for the ChatBot](https://huggingface.co/unmolb/ChattoBotto-doc-v1) for more information.
+Check out the [Hugging Face code for the ChatBot](https://huggingface.co/unmolb/ChattoBotto_v2/tree/main) for more information.
 
 
 ![Interface](https://github.com/Shweta172004/CHATTOBOTTO/assets/122981592/86e6ea50-fe3c-4b1c-9242-7d787627a287)
 
-![Interface](https://github.com/Shweta172004/CHATTOBOTTO/assets/122981592/c0500287-d79f-4536-9c7a-d3c851ee99e3)
+![Interface](https://github.com/Shweta172004/CHATTOBOTTO/assets/122981592/d63dafea-7186-413e-8b34-89930ffa9828)
+
 
 ## Key Features and Technologies Used 🌟🛠️
 
